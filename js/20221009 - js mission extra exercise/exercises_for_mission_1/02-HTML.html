@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="document.form.firstName.focus()">
+    <form target="_blank" action="https://www.google.com" method="GET">
+        <div class="mb-3">
+            <label for="firstName" class="form-label">First name</label>
+            <input type="text" class="form-control" id="firstName" name="firstName" value="first" required minlength="2" maxlength="30" autofocus/>
+        </div>
+        <div class="mb-3">
+            <label for="lastName" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" value="last" required minlength="2" maxlength="30"/>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" value="a@a.com" minlength="2" maxlength="30"/>
+        </div>
+        <div class="mb-3">
+            <label for="telephone" class="form-label">Phone number</label>
+            <input type="tel" class="form-control" id="telephone" name="telephone" 
+            pattern="[0]{1}[5]{1}[0-9]{1}-[1-9]{1}[0-9]{6}"  value="050-1234567" minlength="2" maxlength="30"/>
+        </div>
+        <div class="mb-3">
+            <label for="comment" class="form-label">Comments?</label>
+            <textarea id="comment" name="comment" rows="4" cols="50" required minlength="2" maxlength="500"></textarea>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+ create new form
+ input fields: 
+ title, description, image, price, author
+ submit button - add to list.
+
+ List of books
+ separator
+ Header - Books list.
+ 5 in row
+ image, author, title, price, description
+ button to remove all from list.

@@ -1,0 +1,66 @@
+html {
+    background-color:#B5D7E4;
+    direction: rtl;
+}
+
+.all-rights {
+    margin-top: 200px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#contact-title {
+    text-align: right;
+}
+
+
+h5 {
+    text-align: center;
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
+}
+
+.navBar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.navitem {
+    
+    padding-right: 110px;
+    font-size: 17px;
+    width: 30%; 
+    text-align: center; 
+}
+
+.img-puppies {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* height: 300px;
+    width: 450px; */
+}
+
+.img-animal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 200px;
+    width: 200px;
+}
+
+.animal-table {
+    margin-right: 25%;
+}
