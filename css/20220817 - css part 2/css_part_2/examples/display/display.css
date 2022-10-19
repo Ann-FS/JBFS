@@ -1,0 +1,21 @@
+
+div{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+    /* using inline-block since inline doesn't get width and hight */
+    display: inline-block;
+}
+
+.blue{
+    background-color: blue;
+    display: inline-block;
+}

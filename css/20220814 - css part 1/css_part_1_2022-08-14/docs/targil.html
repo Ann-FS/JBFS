@@ -1,0 +1,41 @@
+<!-- 
+1. crate form with label and input for first and last name
+
+2. add inline style to first name input and set background 
+    color to yellow
+
+3. add internal style to the html file and set background color blue
+ for the seconde input using id.   
+
+4. add external style to the html file (using link) - "styles.css"
+set the labels of all form labels by class targeting and set background color to 
+green -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Targil</title>
+    <link rel="stylesheet" href="assets/styles/targil.css">
+    <style>
+        #lname {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+     <h1>Targil 1</h1>
+     <form action="index.html" method="get">
+        <label for="fname" class="green">First Name</label>
+        <input type="text" id="fname" name="fname" style="background-color: yellow;">
+        <label for="lname" class="green">Last Name</label>
+        <input type="text" id="lname" name="lname">
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address"> 
+        <button type="submit">Send</button>
+        <input type="reset"/>
+     </form>   
+</body>
+</html>

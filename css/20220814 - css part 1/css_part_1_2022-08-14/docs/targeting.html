@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Targeting</title>
+    <link rel="stylesheet" href="assets/styles/targeting.css" />
+
+    <style>
+      h1 {
+        background-color: blue;
+        font-weight: 100;
+      }
+
+      /* id  */
+      #labelFname {
+        color: aqua;
+      }
+
+      /* element */
+
+      label {
+        color: red;
+      }
+
+      /* class */
+
+      .bg-input {
+        background-color: yellowgreen;
+        color: aqua;
+
+      }
+      #lastName {
+        margin: 10px;
+        background-color: blueviolet;
+      }
+
+      .color-input {
+        color: white;
+      }
+
+      /* ---------------- */
+
+     
+
+      /* 
+multi 
+line
+ comment
+*/
+    </style>
+    <!-- this is HTML comment -->
+  </head>
+
+  <body>
+    <div>
+      <h1>Targeting</h1>
+      <form>
+        <label id="labelFname" for="fname">First Name: </label>
+        <input
+          class="color-input bg-input"
+          type="text"
+          id="fname"
+          name="fname"
+        />
+        <div class="bg-input" id="lastName">
+          <label for="lname">Last Name: </label>
+          <input class="bg-input" type="text" id="lname" name="lname" />
+          <br />
+        </div>
+        <button type="submit">Send</button>
+        <a href="index.html">Home</a>
+      </form>
+    </div>
+  </body>
+</html>

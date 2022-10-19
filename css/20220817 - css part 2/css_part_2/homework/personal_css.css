@@ -1,0 +1,46 @@
+body{
+    background-color: #C3E3E8;
+}
+
+.nav-bar{
+    background-color:#8AC0CE;
+    display:flex;
+    height:40px;
+}
+
+.logo{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+
+ul{
+    list-style-type: none;
+}
+.logo img{
+    height:34px;
+    display: flex;
+}
+
+.nav-bar li{
+    display:inline-block;
+}
+
+
+.top-container img{
+    width:50px;
+    height:50px;
+}
+
+/*#flyingBird{
+    width:50px;
+    height:50px;
+}
+
+#doveBird{
+    width:50px;
+    height:50px;
+}
+
+.bird-tree-container{
+    display:inline-block;
+}

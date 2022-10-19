@@ -1,0 +1,11 @@
+.green {
+    background-color: green;
+}
+
+label {
+ background-color: pink;
+}
+
+input {
+    display: block;
+}

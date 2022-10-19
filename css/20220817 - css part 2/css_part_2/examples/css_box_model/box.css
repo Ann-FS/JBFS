@@ -1,0 +1,27 @@
+body {
+  /* in order to remove the gap between the red and the window */
+  margin: 0;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.red {
+  background-color: red;
+  border: solid 10px black;
+}
+
+.blue {
+  background-color: blue;
+  padding: 20px;
+  /* 200 of red width and border right 10 and left 10  */
+  margin-left: 220px;
+}
+
+.yellow {
+  background-color: yellow;
+  /* red offset + yellow offset */
+  margin-left: calc(220px + 200px + 20px * 2);
+}
