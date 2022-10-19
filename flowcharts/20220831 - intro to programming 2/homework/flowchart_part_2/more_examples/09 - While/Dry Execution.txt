@@ -1,0 +1,7 @@
+count | count >= 1 | פלט
+------------------------
+  4   |  true      | Assaf
+  3   |  true      | Assaf
+  2   |  true      | Assaf
+  1   |  true      | Assaf
+  0   |  false
